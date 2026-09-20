@@ -50,7 +50,11 @@ export function ContactSection() {
     );
 
     const whatsappNumber = siteConfig.whatsappHref.split("?")[0];
-    window.open(`${whatsappNumber}?text=${message}`, "_blank", "noopener,noreferrer");
+    window.open(
+      `${whatsappNumber}?text=${message}`,
+      "_blank",
+      "noopener,noreferrer",
+    );
     reset();
   };
 
