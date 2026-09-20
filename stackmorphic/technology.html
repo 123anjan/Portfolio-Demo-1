@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Stackmorphic Technology | JavaScript, React, Django & Web Development
+    </title>
+    <meta
+      name="description"
+      content="Modern tools and technologies used to design, build, and maintain scalable digital experiences with Stackmorphic."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html" class="brand" aria-label="Stackmorphic home">
+          <span class="brand-mark">S</span>
+          <span>Stackmorphic</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span class="menu-bars" aria-hidden="true"
+            ><span></span><span></span><span></span
+          ></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="technology.html" class="active">Technology</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-primary">Start a Project</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-inner reveal">
+          <span class="kicker">Technology</span>
+          <h1>Technology Behind the Experience</h1>
+          <p>
+            Modern tools and technologies used to design, build, and maintain
+            scalable digital experiences.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="tech-filter reveal" aria-label="Technology filters">
+            <button
+              class="filter-btn active"
+              type="button"
+              data-tech-filter="all"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-tech-filter="frontend"
+            >
+              Frontend
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-tech-filter="javascript"
+            >
+              JavaScript
+            </button>
+            <button class="filter-btn" type="button" data-tech-filter="backend">
+              Backend
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-tech-filter="database"
+            >
+              Database
+            </button>
+            <button class="filter-btn" type="button" data-tech-filter="api">
+              API
+            </button>
+            <button class="filter-btn" type="button" data-tech-filter="tools">
+              Tools
+            </button>
+          </div>
+
+          <div class="technology-grid-inner">
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="frontend"
+              data-tech-title="HTML5"
+              data-tech-category="Frontend"
+              data-tech-purpose="Semantic, accessible and SEO-friendly website structure."
+              data-tech-use="Used to create the foundation of pages, content hierarchy and clear user flows."
+              data-tech-related='["CSS3","JavaScript","Accessibility","SEO"]'
+              data-tech-example="A well-structured business homepage with semantic sections and accessible navigation."
+            >
+              <span class="tech-badge">Frontend</span>
+              <h3>HTML5</h3>
+              <p>
+                Used to create semantic, accessible and SEO-friendly website
+                structures.
+              </p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="frontend"
+              data-tech-title="CSS3"
+              data-tech-category="Frontend"
+              data-tech-purpose="Responsive layouts, animations, visual systems and advanced UI styling."
+              data-tech-use="Used for layout, spacing, state styles, responsiveness and polished product presentation."
+              data-tech-related='["HTML5","Tailwind CSS","JavaScript","Responsive Design"]'
+              data-tech-example="A refined dark-mode layout with modular spacing and responsive card grids."
+            >
+              <span class="tech-badge">Frontend</span>
+              <h3>CSS3</h3>
+              <p>
+                Used for responsive layouts, animations, visual systems and
+                advanced UI styling.
+              </p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="frontend"
+              data-tech-title="Tailwind CSS"
+              data-tech-category="Frontend"
+              data-tech-purpose="Scalable utility-based styling and rapid interface development."
+              data-tech-use="Used when appropriate for consistent spacing, layout patterns and fast iteration in interface work."
+              data-tech-related='["HTML5","CSS3","React.js","JavaScript"]'
+              data-tech-example="Utility-driven components for consistent spacing and speed across a marketing site or dashboard."
+            >
+              <span class="tech-badge">Frontend</span>
+              <h3>Tailwind CSS</h3>
+              <p>
+                Used when appropriate for scalable utility-based styling and
+                rapid interface development.
+              </p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="javascript"
+              data-tech-title="JavaScript"
+              data-tech-category="Frontend / Application Logic"
+              data-tech-purpose="Interactive web experiences and dynamic application behavior."
+              data-tech-use="JavaScript powers interactive interfaces, dynamic content, client-side logic, form handling, animations and application functionality."
+              data-tech-related='["HTML • CSS • React • REST APIs"]'
+              data-tech-example="A contact form with validation, a modal system, and a filterable project list."
+            >
+              <span class="tech-badge">JavaScript</span>
+              <h3>JavaScript</h3>
+              <p>
+                JavaScript powers interactive interfaces, dynamic content,
+                client-side logic, form handling, animations and application
+                functionality.
+              </p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="javascript"
+              data-tech-title="React.js"
+              data-tech-category="Frontend"
+              data-tech-purpose="Reusable UI components and responsive business interfaces."
+              data-tech-use="Used for component-based interfaces, dynamic applications, reusable UI systems, state management and interactive experiences."
+              data-tech-related='["JavaScript","REST APIs","State Management","UI Components"]'
+              data-tech-example="A dashboard or app shell with reusable cards, filtering, and layout-driven state updates."
+            >
+              <span class="tech-badge">JavaScript</span>
+              <h3>React.js</h3>
+              <p>
+                Used for component-based interfaces, dynamic applications,
+                reusable UI systems and interactive experiences.
+              </p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="backend"
+              data-tech-title="Python"
+              data-tech-category="Backend"
+              data-tech-purpose="Backend logic, automation and web application development."
+              data-tech-use="Used for business logic, data handling, automation tasks, and application scripting in web projects."
+              data-tech-related='["Django","REST APIs","Oracle SQL","MongoDB"]'
+              data-tech-example="Backend automation for business workflows, data processing and secure application logic."
+            >
+              <span class="tech-badge">Backend</span>
+              <h3>Python</h3>
+              <p>Used for backend logic, automation and web applications.</p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="backend"
+              data-tech-title="Django"
+              data-tech-category="Backend"
+              data-tech-purpose="Structured backend architecture for secure, maintainable and scalable web applications."
+              data-tech-use="Django provides a structured backend architecture for building secure, maintainable and scalable web applications."
+              data-tech-related='["Python","REST APIs","Database Design","Security"]'
+              data-tech-example="A content-driven application or business platform with user flows, forms and admin tools."
+            >
+              <span class="tech-badge">Backend</span>
+              <h3>Django</h3>
+              <p>
+                Django provides a structured backend architecture for building
+                secure, maintainable and scalable web applications.
+              </p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="api"
+              data-tech-title="REST APIs"
+              data-tech-category="API"
+              data-tech-purpose="Connect frontend interfaces with backend services and external data."
+              data-tech-use="Used to connect frontend interfaces with backend services for flexible data exchange and application functionality."
+              data-tech-related='["JavaScript","Python","Django","Fetch API"]'
+              data-tech-example="A product listing or business dashboard powered by structured API responses and frontend rendering."
+            >
+              <span class="tech-badge">API</span>
+              <h3>REST APIs</h3>
+              <p>Used to connect frontend interfaces with backend services.</p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="database"
+              data-tech-title="Oracle SQL"
+              data-tech-category="Database"
+              data-tech-purpose="Structured relational data storage for business-critical information."
+              data-tech-use="For structured relational data and database-driven applications, especially where data integrity and reporting matter."
+              data-tech-related='["MongoDB","Django","Python","REST APIs"]'
+              data-tech-example="Customer records, orders, or business data stored in a relational model with clear structure."
+            >
+              <span class="tech-badge">Database</span>
+              <h3>Oracle SQL</h3>
+              <p>
+                For structured relational data and database-driven applications.
+              </p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="database"
+              data-tech-title="MongoDB"
+              data-tech-category="Database"
+              data-tech-purpose="Flexible document-oriented data storage for dynamic content and workflows."
+              data-tech-use="For flexible document-oriented data use cases where structure can evolve over time."
+              data-tech-related='["Oracle SQL","REST APIs","Python","JavaScript"]'
+              data-tech-example="Content-heavy or document-style projects where records can vary in structure and scale."
+            >
+              <span class="tech-badge">Database</span>
+              <h3>MongoDB</h3>
+              <p>For flexible document-oriented data use cases.</p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="tools"
+              data-tech-title="Git"
+              data-tech-category="Tools"
+              data-tech-purpose="Version control and collaborative code management."
+              data-tech-use="Version control for tracking changes, collaborating efficiently, and managing project updates."
+              data-tech-related='["GitHub","VS Code","PyCharm","Project Delivery"]'
+              data-tech-example="Maintaining a clean project history and rolling back updates when needed."
+            >
+              <span class="tech-badge">Tools</span>
+              <h3>Git</h3>
+              <p>Version control.</p>
+            </article>
+
+            <article
+              class="tech-card reveal"
+              data-tech-card
+              data-category="tools"
+              data-tech-title="GitHub"
+              data-tech-category="Tools"
+              data-tech-purpose="Source-code collaboration and project coordination."
+              data-tech-use="Source-code collaboration and project management."
+              data-tech-related='["Git","VS Code","Cloud workflows","Team delivery"]'
+              data-tech-example="Keeping project changes organized, reviewed and easy to share across a team."
+            >
+              <span class="tech-badge">Tools</span>
+              <h3>GitHub</h3>
+              <p>Source-code collaboration and project management.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="kicker">Powered by JavaScript</span>
+            <h2>
+              Interactive frontend engineering, not just a list of technologies.
+            </h2>
+          </div>
+
+          <div class="demo-grid reveal">
+            <div class="demo-panel">
+              <h3>Demo 1 — Interactive UI</h3>
+              <button
+                class="btn btn-primary"
+                data-demo-action="Theme update"
+                type="button"
+              >
+                Change Interface State
+              </button>
+              <div class="demo-state" id="demo-state">Interface ready</div>
+            </div>
+
+            <div class="demo-panel">
+              <h3>Demo 2 — Live Form Validation</h3>
+              <div class="demo-form">
+                <input class="input" type="email" placeholder="Email address" />
+                <input class="input" type="text" placeholder="Your name" />
+              </div>
+            </div>
+
+            <div class="demo-panel">
+              <h3>Demo 3 — Dynamic Filtering</h3>
+              <div class="inline-filter" aria-label="Dynamic filter demo">
+                <button class="filter-btn active" type="button">All</button>
+                <button class="filter-btn" type="button">Design</button>
+                <button class="filter-btn" type="button">Build</button>
+              </div>
+              <div
+                class="grid grid-3"
+                style="grid-template-columns: repeat(3, minmax(0, 1fr))"
+              >
+                <div class="api-item" data-search-item>Design</div>
+                <div class="api-item" data-search-item>Build</div>
+                <div class="api-item" data-search-item>Strategy</div>
+              </div>
+            </div>
+
+            <div class="demo-panel">
+              <h3>Demo 4 — Modal System</h3>
+              <button class="btn btn-secondary" type="button">
+                Open Modal
+              </button>
+            </div>
+
+            <div class="demo-panel" id="theme-controller">
+              <h3>Demo 5 — Theme Controller</h3>
+              <div class="demo-button-row">
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-theme-switch="violet"
+                >
+                  Violet
+                </button>
+                <button
+                  class="btn btn-secondary"
+                  type="button"
+                  data-theme-switch="cyan"
+                >
+                  Cyan
+                </button>
+                <button
+                  class="btn btn-ghost"
+                  type="button"
+                  data-theme-switch="emerald"
+                >
+                  Emerald
+                </button>
+              </div>
+              <div class="demo-state" id="accent-output">Accent: violet</div>
+            </div>
+
+            <div class="demo-panel">
+              <h3>Demo 6 — Counter Animation</h3>
+              <div class="counter-box">
+                <div class="counter-card">
+                  <strong data-count="32" data-suffix="%">0%</strong
+                  ><span>Performance</span>
+                </div>
+                <div class="counter-card">
+                  <strong data-count="12" data-suffix="x">0x</strong
+                  ><span>Velocity</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-panel">
+              <h3>Demo 7 — Tabs</h3>
+              <div class="tab-buttons">
+                <button class="tab-btn active" type="button" data-tab="tab-1">
+                  Strategy
+                </button>
+                <button class="tab-btn" type="button" data-tab="tab-2">
+                  Build
+                </button>
+                <button class="tab-btn" type="button" data-tab="tab-3">
+                  Launch
+                </button>
+              </div>
+              <div class="tab-panel active" id="tab-1">
+                Clear strategy keeps product direction aligned with business
+                goals.
+              </div>
+              <div class="tab-panel" id="tab-2">
+                Thoughtful build decisions support maintainability and future
+                growth.
+              </div>
+              <div class="tab-panel" id="tab-3">
+                Launch readiness ensures a smoother rollout for real users.
+              </div>
+            </div>
+
+            <div class="demo-panel">
+              <h3>Demo 8 — Accordion</h3>
+              <div class="accordion-item open">
+                <button
+                  class="accordion-trigger"
+                  type="button"
+                  aria-expanded="true"
+                >
+                  What does the build process include?<span>+</span>
+                </button>
+                <div class="accordion-content" style="max-height: 120px">
+                  <div class="accordion-content-inner">
+                    Strategy, design, development, testing, and launch support
+                    for the final product.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-panel">
+              <h3>Demo 9 — Search</h3>
+              <input
+                id="search-demo"
+                class="input"
+                type="text"
+                placeholder="Search Stackmorphic"
+              />
+              <div class="api-list" style="margin-top: 1rem">
+                <div class="api-item" data-search-item>JavaScript</div>
+                <div class="api-item" data-search-item>Design</div>
+                <div class="api-item" data-search-item>Frontend</div>
+              </div>
+            </div>
+
+            <div class="demo-panel">
+              <h3>Demo 10 — Interactive JSON Data</h3>
+              <button id="api-fetch" class="btn btn-primary" type="button">
+                Fetch Data
+              </button>
+              <div
+                id="api-output"
+                class="api-list"
+                style="margin-top: 1rem"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="kicker">JavaScript knowledge</span>
+            <h2>Core concepts used in practical development.</h2>
+          </div>
+
+          <div class="grid grid-3">
+            <article class="feature-card reveal">
+              <h3>Core JavaScript</h3>
+              <ul class="ulist">
+                <li>Variables</li>
+                <li>Functions</li>
+                <li>Objects</li>
+                <li>Arrays</li>
+                <li>ES6+</li>
+                <li>Modules</li>
+                <li>Destructuring</li>
+                <li>Spread/rest</li>
+                <li>Template literals</li>
+                <li>Promises</li>
+                <li>Async/Await</li>
+                <li>Error handling</li>
+              </ul>
+            </article>
+
+            <article class="feature-card reveal">
+              <h3>DOM & Browser APIs</h3>
+              <ul class="ulist">
+                <li>DOM manipulation</li>
+                <li>Event handling</li>
+                <li>Event delegation</li>
+                <li>Form APIs</li>
+                <li>Fetch API</li>
+                <li>LocalStorage</li>
+                <li>SessionStorage</li>
+                <li>URL APIs</li>
+                <li>IntersectionObserver</li>
+              </ul>
+            </article>
+
+            <article class="feature-card reveal">
+              <h3>Application Patterns</h3>
+              <ul class="ulist">
+                <li>Component-oriented architecture</li>
+                <li>Reusable functions</li>
+                <li>State management</li>
+                <li>Dynamic rendering</li>
+                <li>API integration</li>
+                <li>Client-side validation</li>
+                <li>Error handling</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="brand" aria-label="Stackmorphic home"
+              ><span class="brand-mark">S</span><span>Stackmorphic</span></a
+            >
+            <p>Full-stack web development solutions for modern businesses.</p>
+          </div>
+          <div>
+            <h3 class="footer-title">Navigation</h3>
+            <ul class="footer-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="process.html">Process</a></li>
+              <li><a href="projects.html">Projects</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-title">More</h3>
+            <ul class="footer-list">
+              <li><a href="technology.html">Technology</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-title">Contact</h3>
+            <ul class="footer-list">
+              <li><a href="tel:+919330492466">+91 9330492466</a></li>
+              <li>
+                Badu Rd, Sreenagar, Madhyamgram, Kolkata, West Bengal 700129
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copy">© 2026 Stackmorphic. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <div class="modal-backdrop" id="tech-modal" aria-hidden="true">
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="tech-modal-title"
+      >
+        <div class="modal-head">
+          <h3 class="modal-title" id="tech-modal-title">Technology</h3>
+          <button
+            class="icon-button tech-modal-close"
+            type="button"
+            aria-label="Close technology modal"
+          >
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            <strong>Category:</strong> <span id="tech-modal-category"></span>
+          </p>
+          <p><strong>Purpose:</strong> <span id="tech-modal-purpose"></span></p>
+          <p><strong>Typical use:</strong> <span id="tech-modal-use"></span></p>
+          <h4>Related technologies</h4>
+          <div class="modal-tags" id="tech-modal-related"></div>
+          <h4>Example application</h4>
+          <p id="tech-modal-example"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

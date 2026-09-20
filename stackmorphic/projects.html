@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stackmorphic Projects | Concept Work & Product Ideas</title>
+    <meta
+      name="description"
+      content="Concept projects showing modern business website, e-commerce, SaaS dashboard, and restaurant design directions for Stackmorphic."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html" class="brand" aria-label="Stackmorphic home">
+          <span class="brand-mark">S</span>
+          <span>Stackmorphic</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span class="menu-bars" aria-hidden="true"
+            ><span></span><span></span><span></span
+          ></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="technology.html">Technology</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-primary">Start a Project</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-inner reveal">
+          <span class="kicker">Projects</span>
+          <h1>Concept Projects</h1>
+          <p>
+            These examples are concept projects used to show design direction,
+            interaction patterns, and web development capability. They are not
+            presented as completed client work.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="project-filter reveal" aria-label="Project filters">
+            <button
+              class="filter-btn active"
+              type="button"
+              data-project-filter="all"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-project-filter="business"
+            >
+              Business
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-project-filter="ecommerce"
+            >
+              E-Commerce
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-project-filter="web-app"
+            >
+              Web App
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-project-filter="landing-page"
+            >
+              Landing Page
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-project-filter="ui-ux"
+            >
+              UI/UX
+            </button>
+          </div>
+
+          <div class="grid grid-3">
+            <article
+              class="project-card reveal"
+              data-project-card
+              data-category="business"
+              data-project-title="Business Website"
+              data-project-category="Business"
+              data-project-description="A modern local-business website concept designed to highlight services, trust, and clear calls to action."
+              data-project-features='["Service-led navigation","Lead generation sections","Mobile-first layout","Brand-focused design"]'
+              data-project-tech='["HTML5","CSS3","JavaScript","Responsive UI"]'
+              data-project-type="Business Website"
+            >
+              <div class="project-visual"><div class="screen"></div></div>
+              <div class="meta-row">
+                <span>Business</span><span class="tag">Concept</span>
+              </div>
+              <h3>Business Website</h3>
+              <p>Modern local-business website concept.</p>
+            </article>
+
+            <article
+              class="project-card reveal"
+              data-project-card
+              data-category="ecommerce"
+              data-project-title="E-Commerce Experience"
+              data-project-category="E-Commerce"
+              data-project-description="A premium purchase journey concept built around product discovery, trust signals, and a clean conversion path."
+              data-project-features='["Product grid","Trust indicators","Cart flow","Checkout UX"]'
+              data-project-tech='["JavaScript","UI Design","UX Strategy","Responsive Layout"]'
+              data-project-type="E-Commerce"
+            >
+              <div class="project-visual"><div class="screen"></div></div>
+              <div class="meta-row">
+                <span>E-Commerce</span><span class="tag purple">Concept</span>
+              </div>
+              <h3>E-Commerce Experience</h3>
+              <p>Modern shopping interface concept.</p>
+            </article>
+
+            <article
+              class="project-card reveal"
+              data-project-card
+              data-category="web-app"
+              data-project-title="SaaS Dashboard"
+              data-project-category="Web App"
+              data-project-description="An interactive SaaS dashboard concept focused on product analytics, decision-making, and clear information hierarchy."
+              data-project-features='["Analytics focus","Data cards","Filtering","Action screens"]'
+              data-project-tech='["React-style UI","Charts","Dynamic state","Dashboard UX"]'
+              data-project-type="Web Application"
+            >
+              <div class="project-visual"><div class="screen"></div></div>
+              <div class="meta-row">
+                <span>Web App</span><span class="tag">Concept</span>
+              </div>
+              <h3>SaaS Dashboard</h3>
+              <p>Interactive SaaS dashboard concept.</p>
+            </article>
+
+            <article
+              class="project-card reveal"
+              data-project-card
+              data-category="business"
+              data-project-title="Restaurant Website"
+              data-project-category="Business"
+              data-project-description="A conversion-focused restaurant concept that blends menu presentation, trust-building content, and reservation intent."
+              data-project-features='["Menu emphasis","Location details","CTA patterns","Mobile speed"]'
+              data-project-tech='["Brand UI","Responsive Design","Conversion UX","Content Strategy"]'
+              data-project-type="Business Website"
+            >
+              <div class="project-visual"><div class="screen"></div></div>
+              <div class="meta-row">
+                <span>Business</span><span class="tag purple">Concept</span>
+              </div>
+              <h3>Restaurant Website</h3>
+              <p>Conversion-focused restaurant concept.</p>
+            </article>
+
+            <article
+              class="project-card reveal"
+              data-project-card
+              data-category="landing-page"
+              data-project-title="Service Launch Landing Page"
+              data-project-category="Landing Page"
+              data-project-description="A service-led landing page concept built to frame an offer, reduce friction, and strengthen trust quickly."
+              data-project-features='["Focused messaging","Lead form","Benefit layout","CTA sequencing"]'
+              data-project-tech='["Landing Page UX","A/B clarity","Responsive Layout","Conversion Design"]'
+              data-project-type="Landing Page"
+            >
+              <div class="project-visual"><div class="screen"></div></div>
+              <div class="meta-row">
+                <span>Landing Page</span><span class="tag">Concept</span>
+              </div>
+              <h3>Service Launch Landing Page</h3>
+              <p>Focused conversion concept.</p>
+            </article>
+
+            <article
+              class="project-card reveal"
+              data-project-card
+              data-category="ui-ux"
+              data-project-title="Portfolio Interface"
+              data-project-category="UI/UX"
+              data-project-description="A refined portfolio interface concept focused on content hierarchy, minimal navigation, and premium presentation."
+              data-project-features='["Editorial layout","Minimal navigation","Premium whitespace","Interaction design"]'
+              data-project-tech='["UI/UX","Visual Design","Content Hierarchy","Prototyping"]'
+              data-project-type="Website Redesign"
+            >
+              <div class="project-visual"><div class="screen"></div></div>
+              <div class="meta-row">
+                <span>UI/UX</span><span class="tag purple">Concept</span>
+              </div>
+              <h3>Portfolio Interface</h3>
+              <p>Premium interface concept.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="brand" aria-label="Stackmorphic home"
+              ><span class="brand-mark">S</span><span>Stackmorphic</span></a
+            >
+            <p>Full-stack web development solutions for modern businesses.</p>
+          </div>
+          <div>
+            <h3 class="footer-title">Navigation</h3>
+            <ul class="footer-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="process.html">Process</a></li>
+              <li><a href="projects.html">Projects</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-title">More</h3>
+            <ul class="footer-list">
+              <li><a href="technology.html">Technology</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-title">Contact</h3>
+            <ul class="footer-list">
+              <li><a href="tel:+919330492466">+91 9330492466</a></li>
+              <li>
+                Badu Rd, Sreenagar, Madhyamgram, Kolkata, West Bengal 700129
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copy">© 2026 Stackmorphic. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <div class="modal-backdrop" id="project-modal" aria-hidden="true">
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-head">
+          <h3 class="modal-title" id="modal-title">Project title</h3>
+          <button
+            class="icon-button modal-close"
+            type="button"
+            aria-label="Close modal"
+          >
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="meta-row">
+            <span id="modal-category">Category</span
+            ><span class="tag purple">Concept</span>
+          </div>
+          <p id="modal-description"></p>
+          <h4>Features</h4>
+          <ul class="ulist" id="modal-features"></ul>
+          <h4>Technology</h4>
+          <div class="modal-tags" id="modal-tech"></div>
+          <h4>Project type</h4>
+          <p id="modal-type"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

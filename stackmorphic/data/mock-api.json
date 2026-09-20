@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "name": "Brand Refresh",
+      "type": "Business Website",
+      "status": "Ready for review"
+    },
+    {
+      "name": "Shopfront v2",
+      "type": "E-Commerce",
+      "status": "Concept approved"
+    },
+    {
+      "name": "Operations Dashboard",
+      "type": "Web Application",
+      "status": "Prototype built"
+    },
+    {
+      "name": "Lead Capture Page",
+      "type": "Landing Page",
+      "status": "Ready to launch"
+    }
+  ]
+}
