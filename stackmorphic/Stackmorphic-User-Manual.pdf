@@ -1,0 +1,92 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 1756 >>
+stream
+BT
+/F1 22 Tf
+72 760 Td
+(Stackmorphic User Manual) Tj
+0 -30 Td
+/F1 13 Tf
+(Overview) Tj
+0 -20 Td
+(You are using a Next.js project for Stackmorphic, not a plain HTML page.) Tj
+0 -18 Td
+(There is no index.html in the project root because the app uses the App Router.) Tj
+0 -18 Td
+(The main page entry is: src/app/page.tsx) Tj
+0 -28 Td
+(F1 13 Tf) Tj
+(How to run the project) Tj
+0 -20 Td
+(1. Open the project folder in VS Code.) Tj
+0 -18 Td
+(2. Open a terminal in the project root.) Tj
+0 -18 Td
+(3. Run: npm install) Tj
+0 -18 Td
+(4. Run: npm run dev) Tj
+0 -18 Td
+(5. Open http://localhost:3000 in your browser.) Tj
+0 -28 Td
+(How to use the app) Tj
+0 -20 Td
+(Use the top navigation to move between Home, Services, Process, Projects,) Tj
+0 -18 Td
+(Tech Stack, About, FAQ, and Contact pages.) Tj
+0 -18 Td
+(Use the contact form to send project inquiries.) Tj
+0 -18 Td
+(Use the WhatsApp and phone links for direct contact.) Tj
+0 -28 Td
+(How to modify the project) Tj
+0 -20 Td
+(Edit files in src/app for pages and routes.) Tj
+0 -18 Td
+(Edit files in src/components for reusable UI elements.) Tj
+0 -18 Td
+(Edit files in src/data for text, services, projects, FAQ, and technology data.) Tj
+0 -18 Td
+(Edit CSS in src/app/globals.css and component classes in TSX files.) Tj
+0 -18 Td
+(Use npm run lint to check for issues and npm run build for production build.) Tj
+0 -28 Td
+(How to find the page entry file) Tj
+0 -20 Td
+(The page entry file for the homepage is: src/app/page.tsx) Tj
+0 -18 Td
+(The main global stylesheet is: src/app/globals.css) Tj
+0 -18 Td
+(The contact API is: src/app/api/contact/route.ts) Tj
+0 -18 Td
+(The tech stack route is: src/app/tech-stack/page.tsx) Tj
+0 -18 Td
+(If you need a static HTML file, this app does not generate one automatically.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+0000002119
+%%EOF
