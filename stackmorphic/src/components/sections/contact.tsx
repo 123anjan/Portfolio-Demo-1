@@ -36,23 +36,22 @@ export function ContactSection() {
   });
 
   const onSubmit = async (values: ContactFormValues) => {
-    const payload = { ...values, honeypot: undefined };
+    const message = encodeURIComponent(
+      [
+        `Name: ${values.fullName}`,
+        `Business: ${values.businessName}`,
+        `Email: ${values.email}`,
+        `Phone / WhatsApp: ${values.phone}`,
+        `Project type: ${values.projectType}`,
+        `Budget: ${values.budget}`,
+        "",
+        values.projectDescription,
+      ].join("\n"),
+    );
 
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-
-      if (!response.ok) {
-        throw new Error("Unable to send the message right now.");
-      }
-
-      reset();
-    } catch (error) {
-      console.error(error);
-    }
+    const whatsappNumber = siteConfig.whatsappHref.split("?")[0];
+    window.open(`${whatsappNumber}?text=${message}`, "_blank", "noopener,noreferrer");
+    reset();
   };
 
   return (
