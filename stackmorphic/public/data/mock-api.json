@@ -1,8 +1,0 @@
-{
-  "message": "Mock API response loaded successfully",
-  "projects": [
-    { "title": "Business Website", "category": "Business" },
-    { "title": "Landing Page", "category": "Marketing" },
-    { "title": "Custom Dashboard", "category": "Web App" }
-  ]
-}
